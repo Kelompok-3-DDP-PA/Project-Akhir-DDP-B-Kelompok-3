@@ -1,0 +1,6 @@
+id_layanan,nama_layanan,harga,status
+L001, Konsultasi Umum, 50000, Aktif
+L002, Pemeriksaan Tekanan Darah, 20000, Aktif
+L003, Pemeriksaan Gula Darah, 35000, Aktif
+L004, Pemeriksaan Kolesterol, 45000, Aktif
+L005, Konsultasi Kesehatan, 40000, Aktif
