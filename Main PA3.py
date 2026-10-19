@@ -353,3 +353,227 @@ def tampilkan_layanan(aktif_saja=False):
     )
 
 
+def tambah_layanan ():
+    bersihkan_layar()
+
+    print("=" * 45)
+    print("             TAMBAH LAYANAN")
+    print("=" * 45)
+
+    data_layanan = baca_csv(FILE_LAYANAN, KOLOM_LAYANAN)
+
+    while True:
+        id_layanan = input("ID layanan baru: ").strip().upper()
+
+        if id_layanan == "":
+            print("ID layanan tidak boleh kosong.")
+        elif cari_layanan(id_layanan, data_layanan) is not None:
+            print("ID layanan sudah digunakan.")
+        else:
+            break
+
+        while True:
+            nama_layanan = input("Nama layanan: ").strip()
+
+            if nama_layanan == '':
+                print("Nama layanan tidak boleh kosong.")
+            else:
+                break
+
+            harga = input_angka("harga layanan: Rp", 1)
+
+            layanan_baru = {
+                "id_layanan": id_layanan,
+                "nama_layanan": nama_layanan,
+                "harga": str(harga),
+                "status": "Aktif"
+            }
+
+            data_layanan.append(layanan_baru)
+
+            try:
+                simpan_csv(FILE_LAYANAN, KOLOM_LAYANAN, data_layanan)
+                print("\nLayanan berhasil ditambahkan.")
+
+            except OSError:
+                data_layanan.remove(layanan_baru)
+                print("Layanan gagal disimpan.")
+
+            jeda()
+
+#CRUD LAYANAN:UBAH
+
+def ubah_layanan():
+    bersihkan_layar()
+    tampilkan_layanan()
+
+    data_layanan = baca_csv(FILE_LAYANAN, KOLOM_LAYANAN)
+
+    print("\nUBAH DATA LAYANAN")
+    id_layanan = input("Masukkan ID layanan: ").strip()
+    
+    layanan = cari_layanan(id_layanan, data_layanan)
+
+    if layanan is None:
+        print("Layanan tidak ditemukan.")
+        jeda()
+        return
+
+    print("\nData layanan saat ini:")
+    print("Nama:", layanan["nama_layanan"])
+    print("Harga:", format_rupiah(layanan["harga"]))
+    print("Status:", layanan["status"])
+
+    print("\nKosongkan input jika tidak ingin mengubah data.")
+
+    nama_lama = layanan["nama layanan"]
+    harga_lama = layanan["harga"]
+    status_lama = layanan["status"]
+
+    nama_baru = input("Nama layanan baru: ").strip()
+    
+    if nama_baru:
+        layanan["nama_layanan"] = nama_baru
+
+    while True:
+        harga_baru  = input("Harga baru: Rp").strip()
+
+        if harga_baru == "":
+            break
+
+        try:
+            harga_baru = int(harga_baru)
+
+            if harga_baru <= 0:
+                print("harga harus lebih dari nol.")
+            else:
+                layanan["harga"] =str(harga_baru)
+                break
+
+        except ValueError:
+            print("hargA harus berupa angka bulat.")
+
+        while True:
+            status_baru = input("status baru (Aktif/Nonaktif): ").strip().lower()
+
+            if status_baru == "":
+                break
+            elif status_baru == "nonaktif" and "Nonaktif" in STATUS_LAYANAN:
+                layanan["status"] = "Nonaktif"
+                break
+            elif status_baru == "nonaktif" and "Nonaktif" in STATUS_LAYANAN:
+                layanan["status"] = "Nonaktif"
+                break
+            else:
+                print("Masukkan aktif atau nonaktif.")
+
+        try:
+            simpan_csv(FILE_LAYANAN, KOLOM_LAYANAN, data_layanan)
+            print("\nData Layanan berhasil diubah.")
+
+        except OSError:
+            layanan["nama_layanan"] = nama_lama
+            layanan["harga"] = harga_lama
+            layanan["status"] = status_lama
+            print("data layanan gagal disimpan. perubahan dibatalkan.")
+
+        jeda()
+
+#CRUD LAYANAN: HAPUS
+
+def hapus_layanan():
+    bersihkan_layar()
+    tampilkan_layanan()
+
+    data_layanan = baca_csv(FILE_LAYANAN, KOLOM_LAYANAN)
+    data_transaksi = baca_csv(FILE_TRANSAKSI, KOLOM_TRANSAKSI)
+
+    print("\nHAPUS DATA LAYANAN")
+    id_layanan = input("Masukkan ID layanan: ").strip()
+
+    layanan = cari_layanan(id_layanan, data_layanan)
+
+    if layanan is None:
+        print("Layanan tidak ditemukan.")
+        jeda()
+        return
+
+    pernah_dibayar = False
+
+    for transaksi in data_transaksi:
+        if  (
+            transaksi["id_layanan"].lower() == id_layanan.
+            lower() 
+            and transaksi["jenis"] == "PEMBAYARAN_LAYANAN"
+            and transaksi["status"] == "Berhasil"
+        ):
+            pernah_dibayar = True
+            break
+        
+        status_lama = layanan["status"]
+
+        if pernah_dibayar:
+            layanan["status"] = "Nonaktif"
+
+        try:
+            simpan_csv(FILE_LAYANAN, KOLOM_LAYANAN, data_layanan)
+            print("Layanan dinonaktifkan karena memiliki riwayat transaksi.")
+        
+        except OSError:
+            layanan["status"] = status_lama
+            print("status layanan gagal disimpan. Perubahan dibatalkan.")
+
+    else:
+        indeks_layanan = data_layanan.index(layanan)
+        data_layanan.remove(layanan)
+
+        try:
+            simpan_csv(FILE_LAYANAN, KOLOM_LAYANAN, data_layanan)
+            print("Layanan berhasil dihapus.")
+
+        except OSError:
+            data_layanan.insert(indeks_layanan, layanan)
+            print("Layanan gagal dihapus dari file. data dipulihkan.")
+
+    jeda()
+
+#MENU KELOLA LAYANAN
+def menu_kelola_layanan():
+    while True:
+        bersihkan_layar()
+        print("=" * 45)
+        print("          KELOLA LAYANAN KLINIK")
+        print("=" * 45)
+        print("1. Lihat Layanan")
+        print("2. Tambah Layanan")
+        print("3. Ubah Layanan")
+        print("4. Hapus Layanan")
+        print("5. Kembali")
+
+        pilihan = input("\nPilih menu: ").strip()
+
+        if pilihan == "1":
+            bersihkan_layar()
+            tampilkan_layanan()
+            jeda()
+
+        elif pilihan == "2":
+            tambah_layanan()
+
+        elif pilihan == "3":
+            ubah_layanan()
+
+        elif pilihan == "4":
+            hapus_layanan()
+
+        elif pilihan == "0":
+            break
+
+        else:
+            print("Pilihan tidak tersedia.")
+            jeda()
+        
+
+    
+
+        
