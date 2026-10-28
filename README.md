@@ -18,3 +18,4 @@ Sistem Pembayaran dan Administrasi Klinik merupakan program berbasis Python yang
 Tujuan pembuatan program ini adalah untuk menerapkan materi dasar pemrograman Python, seperti fungsi, percabangan, perulangan, pengolahan file CSV, validasi input, dan penanganan kesalahan. Data pengguna, layanan, dan transaksi disimpan menggunakan file CSV.
 
 # 3 Flowchart Program
+<img width="3219" height="2531" alt="DDP_kel 3" src="https://github.com/user-attachments/assets/2f375a62-258a-448a-8577-1d46284e8fc6" />
