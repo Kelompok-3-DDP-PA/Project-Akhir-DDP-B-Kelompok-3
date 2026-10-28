@@ -3,13 +3,13 @@
 # Sistem Pembayaran dan Administrasi Klinik
 
 # 1.Anggota Kelompok dan peran
-1.Muhammad Atha Andhika | 
+1.Muhammad Atha Andhika | Project Leader, memastikan semua anggota berkontribusi dan berkerja sama satu dengan lainnya, merancang alur dan struktur program serta membuat programnya.
 
-2.Nabilah Rahmadhani |
+2.Nabilah Rahmadhani | Anggota, 
 
-3.Annisa Maulida Rizky |
+3.Annisa Maulida Rizky | Anggota, 
 
-4.Mario Bawa Welan |
+4.Mario Bawa Welan | Anggota,
 
 # 2 Deskripsi dan Tujuan
 
