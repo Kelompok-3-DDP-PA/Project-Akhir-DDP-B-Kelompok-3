@@ -35,8 +35,8 @@ Secara keseluruhan, program berjalan dalam perulangan menu: setiap fitur yang se
 
 # Fitur Setiap Role
 ## 1. User
-     User memiliki menu untuk melihat layanan yang tersedia, menu top-up dengan minimal top-up Rp 1000 dan akan menampilkan       invoice jika top-up berhasil dilakukan, menu untuk membayar layanan yang tersedia dan akan menampilkan invoice jika          pembayaran berhasil, menu untuk melihat riyawat transaksi yang telah dilakukan, dan menu untuk logout dari akun, serta       menu untuk keluar dari programnya.
+   User memiliki menu untuk melihat layanan yang tersedia, menu top-up dengan minimal top-up Rp 1000 dan akan menampilkan       invoice jika top-up berhasil dilakukan, menu untuk membayar layanan yang tersedia dan akan menampilkan invoice jika          pembayaran berhasil, menu untuk melihat riyawat transaksi yang telah dilakukan, dan menu untuk logout dari akun, serta       menu untuk keluar dari programnya.
 ## 2. Admin
-     Admin memiliki menu untuk mengelola layanan mulai dari melihat layanan, menambah layanan, mengubah layanan, dan              menghapus layanan. Lalu admin memiliki menu untuk mengelola data user mulai dari mengubah role user hingga menghapus         akun user. Selanjutnya menu untuk melihat riwayat transaksi yang ada/telah dilakukan. Lalu menu untuk melihat laporan        transaksi, seperti transaksi apa yang dilakukan, total transaksi yang berhasil, total top-up dan total layanan yang          dibayar. Menu logout dan menu untuk keluar dari program. 
+   Admin memiliki menu untuk mengelola layanan mulai dari melihat layanan, menambah layanan, mengubah layanan, dan              menghapus layanan. Lalu admin memiliki menu untuk mengelola data user mulai dari mengubah role user hingga menghapus         akun user. Selanjutnya menu untuk melihat riwayat transaksi yang ada/telah dilakukan. Lalu menu untuk melihat laporan        transaksi, seperti transaksi apa yang dilakukan, total transaksi yang berhasil, total top-up dan total layanan yang          dibayar. Menu logout dan menu untuk keluar dari program. 
 
 # Output dan penjelasan 
