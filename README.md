@@ -52,7 +52,7 @@ Pada Tampilan awal berisi menu login, registrasi akun, dan menu keluar dari prog
 
 <img width="381" height="190" alt="Screenshot 2026-10-29 142504" src="https://github.com/user-attachments/assets/813739e7-fd6c-4c5a-b3bf-9c62a739fc72" />
 
-Pada menu ini, silahkan buat username dan memasukkannya ke dalam program. Setelah itu silahkan masukkan password dan konfismasi password yang telah dibuat, lalu masukkan nama pengguna, maka registrasi akun telah berhasil dan lakukan login.
+Pada menu ini, silahkan buat username dan memasukkannya ke dalam program. Setelah itu silahkan masukkan password dan konfismasi password yang telah dibuat, lalu masukkan nama pengguna, maka registrasi akun telah berhasil dan silahkan  lakukan login dengan akun yang baru dibuat.
 
 ### 2. Menu Login
 
