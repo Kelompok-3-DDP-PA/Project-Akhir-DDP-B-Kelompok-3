@@ -94,3 +94,49 @@ Berikut adalah tampilan dari menu 4 user, yaitu melihat riwayat transaksi yang s
 <img width="340" height="285" alt="Screenshot 2026-10-29 142839" src="https://github.com/user-attachments/assets/424882ba-bc67-4e96-9163-f868122c8c93" />
 
 Menu 5 adalah menu untuk logout dari akun yang digunakan, setelah logout berhasil maka akan kembali ke menu tampilan awal. 
+
+### 4. Menu Admin
+
+<img width="336" height="217" alt="Screenshot 2026-11-02 232023" src="https://github.com/user-attachments/assets/886dbe20-1b38-477f-942d-3160d6081112" />
+
+Ini adalah tampilan dan pilihan menu jika role pengguna adalah admin. 
+
+#### 4.1. menu 1 admin
+
+<img width="455" height="177" alt="Screenshot 2026-11-02 232638" src="https://github.com/user-attachments/assets/961786e7-8c30-4c74-bdef-2233640fd780" />
+
+menu kelola layanan digunakan admin untuk mengatur data layanan klinik.terdapat fitur melihat,menambah,mengubah,dan menghapus layanan beserta harga yang tersedia.
+
+#### 4.2. menu 2 admin
+
+<img width="415" height="202" alt="Screenshot 2026-11-02 233130" src="https://github.com/user-attachments/assets/146b35dc-955b-46b7-936d-318959e1a6a9" />
+
+Menu kelola pengguna digunakan untuk melihat daftar akun pengguna yg terdaftar,mengubah role pengguna menjadi admin atau user,,serta menghapus akun pengguna.
+
+#### 4.3. menu 3 admin
+
+<img width="882" height="212" alt="image" src="https://github.com/user-attachments/assets/4cb8e43a-2650-436b-b37e-a7c0ceb9188c" />
+
+Digunakan untuk menampilkan seluruh riwayat transaksi yang dilakukan oleh semua pengguna, baik transaksi top-up maupun pembayaran layanan klinik.
+
+#### 4.4. menu 4 admin
+
+<img width="319" height="212" alt="Screenshot 2026-11-02 235228" src="https://github.com/user-attachments/assets/2066cc0d-0ab4-4b77-8d84-8292ce2d2048" />
+
+Digunakan untuk menampilkan ringkasan laporan transaksi, seperti jumlah transaksi, transaksi berhasil, total top-up saldo, dan total pembayaran layanan.
+
+#### 4.5. Menu 5 admin
+
+<img width="288" height="203" alt="Screenshot 2026-11-02 235520" src="https://github.com/user-attachments/assets/4db92e49-8f74-431f-9b7d-8de411205964" />
+
+digunakan untuk mengakhiri sesi login admin dan kembali ke tampilan awal.
+
+
+
+
+
+
+
+
+
+
