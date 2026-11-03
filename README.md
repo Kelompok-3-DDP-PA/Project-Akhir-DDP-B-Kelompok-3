@@ -6,6 +6,7 @@
 1.Muhammad Atha Andhika | Project Leader, memastikan semua anggota berkontribusi dan berkerja sama satu dengan lainnya, merancang alur dan struktur program, membuat programnya serta melakukan pengawasan dan testing.
 
 2.Nabilah Rahmadhani | Anggota, membantu membuat flowchart untuk menggambarkan alur kerja program secara sistematis, menyusun laporan, dan file README yang berisi penjelasan dan fitur-fitur program.
+
 3.Annisa Maulida Rizky | Anggota, membantu membuat flowchart, laporan, dan readme
 
 4.Mario Bawa Welan | Anggota,
