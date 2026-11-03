@@ -3,13 +3,13 @@
 # Sistem Pembayaran dan Administrasi Klinik (Administrasi Transaksi Klinik)
 
 # 1. Anggota Kelompok dan peran
-1.Muhammad Atha Andhika | Project Leader, memastikan semua anggota berkontribusi dan berkerja sama satu dengan lainnya, merancang alur dan struktur program, membuat programnya serta melakukan pengawasan dan testing.
+1. Muhammad Atha Andhika | Project Leader, memastikan semua anggota berkontribusi dan berkerja sama satu dengan lainnya, merancang alur dan struktur program, membuat programnya serta melakukan pengawasan dan testing.
 
-2.Nabilah Rahmadhani | Anggota, membuat flowchart untuk menggambarkan alur kerja program secara sistematis, menyusun laporan, dan file README yang berisi penjelasan dan fitur-fitur program.
+2. Nabilah Rahmadhani | Anggota, membuat flowchart untuk menggambarkan alur kerja program secara sistematis, menyusun laporan, dan file README yang berisi penjelasan dan fitur-fitur program.
 
-3.Annisa Maulida Rizky | Anggota, membantu pembuatan flowchart, menyusun laporan, dan file readme bagian fitur setiap role dan output penjelasan menu user
+3. Annisa Maulida Rizky | Anggota, membantu pembuatan flowchart, menyusun laporan, dan file readme bagian fitur setiap role dan output penjelasan menu user
 
-4.Mario Bawa Welan | Anggota, membantu pembuatan code dan testing code, menyusun laporan, dan file readme bagian output penjelasan menu admin
+4. Mario Bawa Welan | Anggota, membantu pembuatan code dan testing code, menyusun laporan, dan file readme bagian output penjelasan menu admin
 
 # 2. Deskripsi dan Tujuan
 
