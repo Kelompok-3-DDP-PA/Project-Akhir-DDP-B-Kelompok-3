@@ -5,11 +5,11 @@
 # 1. Anggota Kelompok dan peran
 1.Muhammad Atha Andhika | Project Leader, memastikan semua anggota berkontribusi dan berkerja sama satu dengan lainnya, merancang alur dan struktur program, membuat programnya serta melakukan pengawasan dan testing.
 
-2.Nabilah Rahmadhani | Anggota, membantu membuat flowchart untuk menggambarkan alur kerja program secara sistematis, menyusun laporan, dan file README yang berisi penjelasan dan fitur-fitur program.
+2.Nabilah Rahmadhani | Anggota, membuat flowchart untuk menggambarkan alur kerja program secara sistematis, menyusun laporan, dan file README yang berisi penjelasan dan fitur-fitur program.
 
-3.Annisa Maulida Rizky | Anggota, membantu membuat flowchart, laporan, dan readme
+3.Annisa Maulida Rizky | Anggota, membantu pembuatan flowchart, menyusun laporan, dan file readme fitur setiap role dan output penjelasan bagian menu user
 
-4.Mario Bawa Welan | Anggota,
+4.Mario Bawa Welan | Anggota, membantu pembuatan code dan testing code, menyusun laporan
 
 # 2. Deskripsi dan Tujuan
 
