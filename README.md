@@ -19,14 +19,114 @@ Tujuan pembuatan program ini adalah untuk menerapkan materi dasar pemrograman Py
 
 # 3 Flowchart Program
 
-## menu utama
+## 1. menu utama
 <img width="1146" height="1607" alt="DDP FLOWCHART PA rev-menu utama" src="https://github.com/user-attachments/assets/77722d1c-84fd-41e4-946f-fc33ebcca8a9" />
 
-## menu admin
+Menu utama merupakan bagian awal program Administrasi Transaksi Klinik yang berfungsi sebagai pintu masuk bagi pengguna untuk mengakses fitur yang tersedia. Pada bagian ini, program menampilkan tiga pilihan, yaitu login, registrasi, dan keluar program.
+
+a. Menampilkan Menu Utama
+
+Program menampilkan pilihan login, registrasi, dan keluar program. Pengguna memasukkan pilihan sesuai kebutuhan. Jika pilihan tidak tersedia, program menampilkan pesan kesalahan dan mengarahkan pengguna kembali ke menu utama.
+
+b. Proses Login
+
+Jika pengguna memilih login, program meminta username dan password. Setiap input diperiksa untuk memastikan tidak kosong. Jika input kosong, program menampilkan pesan kesalahan dan meminta pengguna memasukkan data kembali.
+
+Setelah username dan password diisi, program memeriksa kecocokan data dengan database pengguna. Jika data benar, program menampilkan pesan login berhasil. Jika data salah, program menampilkan pesan bahwa username atau password salah dan mencatat percobaan login. Pengguna dapat mencoba kembali selama kesempatan login belum habis. Jika kesempatan habis, program mengarahkan pengguna kembali ke menu utama.
+
+Setelah login berhasil, program memeriksa peran atau role pengguna. Jika pengguna berperan sebagai admin, program mengarahkannya ke menu admin. Jika pengguna bukan admin, program mengarahkannya ke menu user.
+
+c. Proses Registrasi
+
+Jika pengguna memilih registrasi, program meminta username, password, dan nama lengkap. Setiap input diperiksa untuk memastikan tidak kosong.
+
+Username harus terdiri dari minimal 4 karakter, sedangkan password harus terdiri dari minimal 8 karakter. Jika input tidak memenuhi ketentuan, program menampilkan pesan kesalahan dan meminta pengguna memasukkan data kembali.
+
+Jika seluruh data memenuhi ketentuan, program menyimpan data pengguna ke database. Selanjutnya, program menampilkan informasi bahwa data pengguna telah dibuat dan mengarahkan pengguna kembali ke menu utama.
+
+d. Keluar Program
+
+Jika pengguna memilih opsi keluar program, program mengakhiri proses. Dengan demikian, pengguna dapat keluar tanpa melanjutkan ke proses login atau registrasi.
+
+## 2. menu admin 
 <img width="4108" height="3059" alt="DDP FLOWCHART PA rev-Menu admin " src="https://github.com/user-attachments/assets/0dabe2c9-c5cf-44f3-9215-061f4c483599" />
 
-## menu user
+Menu admin merupakan bagian program yang digunakan oleh administrator untuk mengelola data dalam sistem Administrasi Transaksi Klinik. Setelah berhasil login sebagai admin, program mengarahkan pengguna ke menu admin untuk mengakses fitur sesuai dengan hak aksesnya.
+
+a. Menampilkan Menu Admin
+
+Program menampilkan pilihan menu yang dapat digunakan oleh admin. Admin memilih fitur yang ingin dijalankan. Jika pilihan sesuai dengan menu yang tersedia, program menjalankan proses berdasarkan pilihan tersebut. Jika pilihan tidak tersedia, program menampilkan pesan kesalahan dan meminta admin memilih kembali.
+
+b. Menampilkan Data
+
+Ketika admin memilih menu untuk melihat data, program mengambil data dari database yang sesuai. Data tersebut kemudian diproses dan ditampilkan agar admin dapat memeriksa informasi yang tersimpan dalam sistem.
+
+c. Pengelolaan Data Layanan
+
+Pada bagian pengelolaan layanan, program mengambil data layanan dari database dan menampilkannya kepada admin. Admin kemudian melakukan tindakan sesuai dengan fitur yang tersedia.
+
+Jika proses membutuhkan input, program memeriksa kelengkapan dan kesesuaian input tersebut. Jika input tidak valid, program menampilkan pesan kesalahan dan meminta admin memasukkan data kembali. Jika input memenuhi ketentuan, program memproses dan menyimpan perubahan ke database layanan apabila diperlukan.
+
+d. Pengelolaan Data Pengguna
+
+Menu ini berkaitan dengan pengelolaan informasi akun pengguna. Program mengambil data pengguna dari database, memprosesnya, kemudian menampilkan informasi tersebut kepada admin.
+
+Admin melakukan tindakan sesuai dengan pilihan menu yang tersedia. Jika tindakan membutuhkan input, program melakukan validasi terlebih dahulu. Setelah input memenuhi ketentuan, program memproses tindakan dan menyimpan perubahan apabila diperlukan.
+
+e. Pengelolaan Transaksi
+
+Pada menu transaksi, program mengambil data transaksi dari database untuk diproses dan ditampilkan. Jika tindakan yang dipilih membutuhkan input, program memeriksa kelengkapan dan kesesuaiannya.
+
+Jika input tidak memenuhi ketentuan, program menampilkan pesan kesalahan dan meminta admin melakukan perbaikan. Jika input valid, program melanjutkan proses dan menyimpan data apabila diperlukan.
+
+f. Validasi Input
+
+Validasi input dilakukan untuk memastikan bahwa data yang dimasukkan admin memenuhi ketentuan program. Validasi ini dapat mencakup pemeriksaan input kosong dan kesesuaian data dengan persyaratan yang ditetapkan. Jika terjadi kesalahan, program menampilkan pesan dan meminta admin memasukkan data kembali.
+
+g. Penyimpanan dan Penampilan Hasil
+
+Setelah input dinyatakan valid, program memproses data sesuai dengan pilihan admin. Jika terdapat perubahan data, program menyimpan perubahan tersebut ke database yang berkaitan. Program kemudian menampilkan hasil pemrosesan agar admin dapat mengetahui hasil dari tindakan yang dilakukan.
+
+h. Logout dan Keluar Program
+
+Jika admin memilih logout, program mengakhiri sesi admin dan mengarahkan pengguna kembali ke menu utama. Jika admin memilih keluar program, program mengakhiri proses secara keseluruhan.
+
+## 3. menu user
 <img width="1511" height="1567" alt="DDP FLOWCHART PA rev-menu user" src="https://github.com/user-attachments/assets/84581266-d0cf-49bc-99ed-355b3ce83552" />
+
+Menu user merupakan bagian program yang digunakan oleh pengguna biasa untuk mengakses layanan klinik dan melakukan transaksi. Setelah berhasil login sebagai user, program mengambil dan menampilkan data pengguna dari database, kemudian menampilkan menu yang tersedia.
+
+a. Menampilkan Menu User
+
+Program menampilkan lima pilihan menu, yaitu melihat layanan, top up saldo, membayar layanan, melihat riwayat transaksi, dan logout. Pengguna dapat memilih fitur sesuai kebutuhan. Jika pilihan tidak tersedia, program menampilkan pesan kesalahan dan meminta pengguna memilih kembali.
+
+b. Menu Lihat Layanan
+
+Ketika pengguna memilih menu lihat layanan, program mengambil data layanan dari database layanan. Data tersebut kemudian diproses dan ditampilkan dalam bentuk daftar layanan yang tersedia. Setelah daftar layanan ditampilkan, pengguna diarahkan kembali ke menu user.
+
+c. Menu Top Up Saldo
+
+Pada menu top up, program meminta pengguna memasukkan nominal saldo yang ingin ditambahkan. Program memeriksa apakah input kosong dan apakah nominal berupa bilangan bulat. Jika input tidak sesuai, program menampilkan pesan kesalahan dan meminta pengguna memasukkan nominal kembali.
+
+Nominal top up harus berada dalam rentang Rp1.000 hingga Rp10.000.000. Jika nominal berada di luar batas tersebut, program menampilkan informasi mengenai batas nominal yang diperbolehkan.
+
+Jika nominal memenuhi ketentuan, program meminta konfirmasi kepada pengguna. Jika pengguna menyetujui top up, data transaksi disimpan ke database transaksi dan program menampilkan invoice. Jika pengguna membatalkan, program menampilkan informasi bahwa top up dibatalkan.
+
+d. Menu Bayar Layanan
+
+Ketika pengguna memilih menu bayar layanan, program meminta pengguna memasukkan ID layanan. Jika input kosong, program menampilkan pesan kesalahan dan meminta ID layanan dimasukkan kembali.
+
+Selanjutnya, program memeriksa apakah layanan dengan ID tersebut tersedia. Jika layanan ditemukan, program menampilkan informasi pembayaran dan meminta konfirmasi. Jika layanan tidak ditemukan, program menampilkan pesan bahwa layanan tidak tersedia.
+
+Jika pengguna menyetujui pembayaran, data transaksi disimpan ke database transaksi dan program menampilkan invoice. Jika pengguna membatalkan pembayaran, program menampilkan informasi bahwa pembayaran dibatalkan.
+
+e. Menu Riwayat Transaksi
+
+Menu riwayat transaksi digunakan untuk melihat transaksi yang telah tercatat. Program mengambil data dari database transaksi, memprosesnya, kemudian menampilkan riwayat transaksi kepada pengguna. Setelah proses selesai, pengguna dapat kembali ke menu user.
+
+f. Logout dan Keluar Program
+
+Jika pengguna memilih logout, program mengakhiri sesi akun dan mengarahkan pengguna kembali ke menu utama. Jika pengguna memilih keluar program, program mengakhiri proses secara keseluruhan.
 
 # Fitur Setiap Role
 ## 1. User
