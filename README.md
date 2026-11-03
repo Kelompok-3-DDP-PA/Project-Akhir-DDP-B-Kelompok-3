@@ -7,7 +7,7 @@
 
 2.Nabilah Rahmadhani | Anggota, 
 
-3.Annisa Maulida Rizky | Anggota, 
+3.Annisa Maulida Rizky | Anggota, membantu membuat flowchart, laporan, dan readme
 
 4.Mario Bawa Welan | Anggota,
 
@@ -136,15 +136,15 @@ f. Logout dan Keluar Program
 
 Jika pengguna memilih logout, program mengakhiri sesi akun dan mengarahkan pengguna kembali ke menu utama. Jika pengguna memilih keluar program, program mengakhiri proses secara keseluruhan.
 
-# Fitur Setiap Role
+# 4. Fitur Setiap Role
 ## 1. User
    User memiliki menu untuk melihat layanan yang tersedia, menu top-up dengan minimal top-up Rp 1000 dan akan menampilkan       invoice jika top-up berhasil dilakukan, menu untuk membayar layanan yang tersedia dan akan menampilkan invoice jika          pembayaran berhasil, menu untuk melihat riyawat transaksi yang telah dilakukan, dan menu untuk logout dari akun, serta       menu untuk keluar dari programnya.
 ## 2. Admin
    Admin memiliki menu untuk mengelola layanan mulai dari melihat layanan, menambah layanan, mengubah layanan, dan              menghapus layanan. Lalu admin memiliki menu untuk mengelola data user mulai dari mengubah role user hingga menghapus         akun user. Selanjutnya menu untuk melihat riwayat transaksi yang ada/telah dilakukan. Lalu menu untuk melihat laporan        transaksi, seperti transaksi apa yang dilakukan, total transaksi yang berhasil, total top-up dan total layanan yang          dibayar. Menu logout dan menu untuk keluar dari program. 
 
-# Output dan penjelasan 
+# 5. Output dan penjelasan 
 
-## 1. Tampilan Awal
+## 1. Tampilan Awal(Menu Utama)
 
 <img width="318" height="130" alt="Screenshot 2026-10-29 142201" src="https://github.com/user-attachments/assets/1e15801b-c2c2-4cf9-a5e8-87653b305c69" />
 
@@ -189,7 +189,7 @@ Berikut adalah tampilan dari menu 2 user, yaitu top-up saldo. Pengguna akan dimi
 <img width="371" height="452" alt="Screenshot 2026-10-29 142803" src="https://github.com/user-attachments/assets/c55de0ee-a474-4e57-a36c-ce4a603c51b2" />
 
 
-Berikut adalah tampilan dari menu 3 user, yaitu pembayaran layanan. Pertama akan muncul layanan apa saja yang tersedia lalu pengguna akan diminta untuk memasukkan id layanan yang ingin dibayar dan akan muncul rincian dari transaksi dan pengguna diminta untuk konfirmasi pembayaran. Jika berhasil, maka akan menampilkan invoice dengan informasi transaksi, rincian layanan, dan rincian saldo. Saldo dari pengguna akan otomatis terpotong jika mengkonfirmasi pembayaran.
+Berikut adalah tampilan dari menu 3 user, yaitu pembayaran layanan. Pertama akan muncul layanan apa saja yang tersedia lalu pengguna akan diminta untuk memasukkan id layanan yang ingin dibayar dan akan muncul rincian dari transaksi dan pengguna diminta untuk konfirmasi pembayaran. Jika pengguna memilih tidak maka pembayaran dibatlakan. Jika pengguna memilih ya, maka pembayaran berhasil dan akan menampilkan invoice dengan informasi transaksi, rincian layanan, dan rincian saldo. Saldo dari pengguna akan otomatis terpotong jika mengkonfirmasi pembayaran. 
 
 #### 3.4. Menu 4 User
 
@@ -209,11 +209,15 @@ Menu 5 adalah menu untuk logout dari akun yang digunakan, setelah logout berhasi
 
 Ini adalah tampilan dan pilihan menu jika role pengguna adalah admin. 
 
-#### 4.1. menu 1 admin
+#### 4.1. Menu 1 admin
 
 <img width="455" height="177" alt="Screenshot 2026-11-02 232638" src="https://github.com/user-attachments/assets/961786e7-8c30-4c74-bdef-2233640fd780" />
 
-menu kelola layanan digunakan admin untuk mengatur data layanan klinik.terdapat fitur melihat,menambah,mengubah,dan menghapus layanan beserta harga yang tersedia.
+menu kelola layanan digunakan admin untuk mengatur data layanan klinik. Terdapat fitur melihat, menambah, mengubah, dan menghapus layanan.
+
+##### 4.1.1 Menu Melihat Layanan
+
+
 
 #### 4.2. menu 2 admin
 
