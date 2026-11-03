@@ -222,9 +222,21 @@ Menu ini untuk admin melihat data layanan yang sedang tersedia.
 
 #### 3.1.2 Menu Menambah Layanan
 
+<img width="327" height="187" alt="Screenshot 2026-11-03 181125" src="https://github.com/user-attachments/assets/e8992b1b-a91a-4068-9748-8c887e02f06e" />
+
+Menu Tambah Layanan digunakan oleh admin untuk menambahkan layanan klinik baru. Admin diminta memasukkan ID layanan, nama layanan, dan harga. Sistem akan memvalidasi data agar ID dan nama layanan tidak duplikat serta harga yang dimasukkan harus berupa angka lebih dari nol.
+
 #### 3.1.3 Menu Mengubah Layanan
 
+<img width="300" height="219" alt="Screenshot 2026-11-03 181346" src="https://github.com/user-attachments/assets/24d4bc11-b84e-44fe-954d-f17551ecca84" />
+
+Menu Ubah Layanan digunakan untuk memperbarui data layanan klinik yang sudah terdaftar. Admin dapat mengubah nama dan harga layanan berdasarkan ID layanan yang dipilih. Sistem akan memeriksa ID layanan terlebih dahulu sebelum menyimpan perubahan.
+
 #### 3.1.4 Menu Menghapus Layanan
+
+<img width="429" height="209" alt="Screenshot 2026-11-03 181434" src="https://github.com/user-attachments/assets/e38166ce-dc57-4f3b-a050-501f4774e417" />
+
+Menu Hapus Layanan digunakan untuk menghapus layanan yang sudah tidak diperlukan dari daftar layanan klinik. Admin memasukkan ID layanan yang ingin dihapus, kemudian melakukan konfirmasi sebelum sistem menghapus data tersebut.
 
 ### 3.2. menu kelola pengguna
 
@@ -234,7 +246,15 @@ Menu kelola pengguna digunakan untuk melihat daftar akun pengguna yg terdaftar, 
 
 #### 3.2.1 Menu Mengubah Role Pengguna
 
+<img width="284" height="193" alt="Screenshot 2026-11-03 181806" src="https://github.com/user-attachments/assets/5b15f2e9-de04-4805-8507-1e3c86ffec6d" />
+
+Menu Mengubah Role Pengguna digunakan oleh admin untuk mengubah hak akses akun pengguna. Role pengguna dapat diubah menjadi Admin atau User sesuai kebutuhan. Sistem juga melakukan validasi agar role yang dimasukkan sesuai dengan pilihan yang tersedia.
+
 #### 3.2.2 Menu Menghapus Pengguna
+
+<img width="314" height="169" alt="Screenshot 2026-11-03 181831" src="https://github.com/user-attachments/assets/b1b3eec2-1362-4998-b4da-366e8fe54d04" />
+
+Menu Menghapus Pengguna digunakan oleh admin untuk menghapus akun pengguna yang sudah tidak diperlukan. Admin memasukkan username akun yang ingin dihapus dan melakukan konfirmasi sebelum penghapusan dilakukan. Akun admin utama tidak dapat dihapus melalui fitur ini.
 
 ### 3.3. menu lihat seluruh transaksi
 
