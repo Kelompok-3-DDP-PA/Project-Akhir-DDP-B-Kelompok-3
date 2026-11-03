@@ -266,13 +266,13 @@ Digunakan untuk menampilkan seluruh riwayat transaksi yang dilakukan oleh semua 
 
 <img width="319" height="212" alt="Screenshot 2026-11-02 235228" src="https://github.com/user-attachments/assets/2066cc0d-0ab4-4b77-8d84-8292ce2d2048" />
 
-Digunakan untuk menampilkan ringkasan laporan transaksi, seperti jumlah transaksi, transaksi berhasil, total top-up saldo, dan total pembayaran layanan.
+Menu laporan transaksi digunakan oleh admin untuk melihat ringkasan keseluruhan aktivitas transaksi yang tercatat di dalam sistem. Program mengambil dan mengolah data dari database transaksi untuk menampilkan beberapa informasi, yaitu total transaksi, jumlah transaksi berhasil, total pengisian saldo (top-up), serta total pembayaran layanan. Seluruh informasi tersebut ditampilkan dalam bentuk tabel ringkasan sehingga admin dapat memantau aktivitas transaksi dan mengetahui gambaran umum keuangan yang terjadi di dalam sistem.
 
 ### 3.5. Menu logout
 
 <img width="288" height="203" alt="Screenshot 2026-11-02 235520" src="https://github.com/user-attachments/assets/4db92e49-8f74-431f-9b7d-8de411205964" />
 
-digunakan untuk mengakhiri sesi login admin dan kembali ke tampilan awal.
+Menu logout digunakan untuk mengakhiri sesi login admin dan mengembalikan pengguna ke tampilan awal program. Ketika admin memilih menu ini, program akan menampilkan pesan bahwa proses logout berhasil dan meminta pengguna menekan tombol Enter untuk melanjutkan. Setelah itu, sesi akun admin akan berakhir, tetapi program tetap berjalan sehingga pengguna dapat melakukan login kembali menggunakan akun yang terdaftar.
 
 
 
