@@ -69,31 +69,37 @@ Ketika admin memilih menu untuk melihat data, program mengambil data dari databa
 
 c. Pengelolaan Data Layanan
 
-Pada bagian pengelolaan layanan, program mengambil data layanan dari database dan menampilkannya kepada admin. Admin kemudian melakukan tindakan sesuai dengan fitur yang tersedia.
+Menu pengelolaan data layanan digunakan untuk mengatur informasi layanan klinik yang tersimpan dalam sistem. Program mengambil data dari file CSV dan menampilkannya kepada admin agar dapat diperiksa serta dikelola sesuai kebutuhan.
 
-Jika proses membutuhkan input, program memeriksa kelengkapan dan kesesuaian input tersebut. Jika input tidak valid, program menampilkan pesan kesalahan dan meminta admin memasukkan data kembali. Jika input memenuhi ketentuan, program memproses dan menyimpan perubahan ke database layanan apabila diperlukan.
+Di dalam menu ini, admin dapat melihat daftar layanan, menambahkan layanan baru, mengubah nama dan harga layanan, serta menghapus layanan yang sudah tidak diperlukan. Setiap tindakan dilengkapi validasi untuk memastikan data yang dimasukkan sesuai dengan ketentuan program.
 
 d. Pengelolaan Data Pengguna
 
-Menu ini berkaitan dengan pengelolaan informasi akun pengguna. Program mengambil data pengguna dari database, memprosesnya, kemudian menampilkan informasi tersebut kepada admin.
+Menu pengelolaan data pengguna digunakan untuk mengatur informasi akun yang telah terdaftar dalam sistem. Program mengambil data pengguna dari file CSV dan menampilkannya dalam bentuk tabel agar admin dapat memeriksa informasi setiap akun.
 
-Admin melakukan tindakan sesuai dengan pilihan menu yang tersedia. Jika tindakan membutuhkan input, program melakukan validasi terlebih dahulu. Setelah input memenuhi ketentuan, program memproses tindakan dan menyimpan perubahan apabila diperlukan.
+Melalui menu ini, admin dapat mengubah hak akses pengguna antara admin dan user serta menghapus akun tertentu. Program juga menerapkan pembatasan agar akun admin utama tidak dapat diubah maupun dihapus.
 
-e. Pengelolaan Transaksi
+e. Pengelolaan Seluruh Transaksi
 
-Pada menu transaksi, program mengambil data transaksi dari database untuk diproses dan ditampilkan. Jika tindakan yang dipilih membutuhkan input, program memeriksa kelengkapan dan kesesuaiannya.
+Menu pengelolaan seluruh transaksi digunakan untuk memantau seluruh aktivitas transaksi yang dilakukan oleh pengguna. Program mengambil data dari file transaksi CSV, kemudian mengolah dan menampilkannya dalam bentuk tabel.
 
-Jika input tidak memenuhi ketentuan, program menampilkan pesan kesalahan dan meminta admin melakukan perbaikan. Jika input valid, program melanjutkan proses dan menyimpan data apabila diperlukan.
+Informasi yang ditampilkan meliputi ID transaksi, waktu transaksi, username, jenis transaksi, nama layanan, nominal pembayaran, dan status transaksi. Dengan demikian, admin dapat memeriksa aktivitas top-up saldo maupun pembayaran layanan yang tercatat dalam sistem.
 
-f. Validasi Input
+f. Laporan Transakasi
+
+Menu laporan transaksi digunakan untuk menyajikan ringkasan aktivitas transaksi secara keseluruhan. Program mengolah data transaksi yang tersimpan untuk menghasilkan informasi mengenai jumlah dan nominal transaksi.
+
+Laporan ini mencakup total transaksi, jumlah transaksi berhasil, total nominal top-up, total pembayaran layanan, serta riwayat transaksi seluruh pengguna. Informasi tersebut membantu admin memantau aktivitas pembayaran dan melihat rekapitulasi transaksi dalam sistem.
+
+g. Validasi Input
 
 Validasi input dilakukan untuk memastikan bahwa data yang dimasukkan admin memenuhi ketentuan program. Validasi ini dapat mencakup pemeriksaan input kosong dan kesesuaian data dengan persyaratan yang ditetapkan. Jika terjadi kesalahan, program menampilkan pesan dan meminta admin memasukkan data kembali.
 
-g. Penyimpanan dan Penampilan Hasil
+h. Penyimpanan dan Penampilan Hasil
 
 Setelah input dinyatakan valid, program memproses data sesuai dengan pilihan admin. Jika terdapat perubahan data, program menyimpan perubahan tersebut ke database yang berkaitan. Program kemudian menampilkan hasil pemrosesan agar admin dapat mengetahui hasil dari tindakan yang dilakukan.
 
-h. Logout dan Keluar Program
+i. Logout dan Keluar Program
 
 Jika admin memilih logout, program mengakhiri sesi admin dan mengarahkan pengguna kembali ke menu utama. Jika admin memilih keluar program, program mengakhiri proses secara keseluruhan.
 
