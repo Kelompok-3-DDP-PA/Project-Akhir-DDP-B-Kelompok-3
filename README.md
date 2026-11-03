@@ -20,7 +20,9 @@ Tujuan pembuatan program ini adalah untuk menerapkan materi dasar pemrograman Py
 # 3 Flowchart Program
 
 ## 1. menu utama
-<img width="1146" height="1607" alt="DDP FLOWCHART PA rev-menu utama" src="https://github.com/user-attachments/assets/77722d1c-84fd-41e4-946f-fc33ebcca8a9" />
+<img width="1146" height="1607" alt="FLOWCHART PA DDP 3 -menu utama jpg" src="https://github.com/user-attachments/assets/55cc7c83-911f-4203-9c44-4cf0e6abbee7" />
+
+
 
 Menu utama merupakan bagian awal program Administrasi Transaksi Klinik yang berfungsi sebagai pintu masuk bagi pengguna untuk mengakses fitur yang tersedia. Pada bagian ini, program menampilkan tiga pilihan, yaitu login, registrasi, dan keluar program.
 
@@ -49,7 +51,9 @@ d. Keluar Program
 Jika pengguna memilih opsi keluar program, program mengakhiri proses. Dengan demikian, pengguna dapat keluar tanpa melanjutkan ke proses login atau registrasi.
 
 ## 2. menu admin 
-<img width="4108" height="3059" alt="DDP FLOWCHART PA rev-Menu admin " src="https://github.com/user-attachments/assets/0dabe2c9-c5cf-44f3-9215-061f4c483599" />
+<img width="4108" height="3059" alt="FLOWCHART PA DDP 3 -Menu admin  jpg" src="https://github.com/user-attachments/assets/483b6c65-fcf2-4eca-a6c6-af09a04ffe8a" />
+
+
 
 Menu admin merupakan bagian program yang digunakan oleh administrator untuk mengelola data dalam sistem Administrasi Transaksi Klinik. Setelah berhasil login sebagai admin, program mengarahkan pengguna ke menu admin untuk mengakses fitur sesuai dengan hak aksesnya.
 
@@ -92,7 +96,9 @@ h. Logout dan Keluar Program
 Jika admin memilih logout, program mengakhiri sesi admin dan mengarahkan pengguna kembali ke menu utama. Jika admin memilih keluar program, program mengakhiri proses secara keseluruhan.
 
 ## 3. menu user
-<img width="1511" height="1567" alt="DDP FLOWCHART PA rev-menu user" src="https://github.com/user-attachments/assets/84581266-d0cf-49bc-99ed-355b3ce83552" />
+<img width="1511" height="1608" alt="FLOWCHART PA DDP 3 -menu user jpg" src="https://github.com/user-attachments/assets/9aabf2e8-7014-4900-92a0-761f381d839b" />
+
+
 
 Menu user merupakan bagian program yang digunakan oleh pengguna biasa untuk mengakses layanan klinik dan melakukan transaksi. Setelah berhasil login sebagai user, program mengambil dan menampilkan data pengguna dari database, kemudian menampilkan menu yang tersedia.
 
