@@ -193,7 +193,8 @@ Berikut adalah tampilan dari menu 3 user, yaitu pembayaran layanan. Pertama akan
 
 ### 2.4. Menu lihat riwayat transaksi
 
-<img width="846" height="178" alt="Screenshot 2026-10-29 142823" src="https://github.com/user-attachments/assets/e807437e-fa90-4384-8b6e-945dd83463b7" />
+<img width="1146" height="479" alt="Screenshot 2026-11-03 215126" src="https://github.com/user-attachments/assets/254bec0f-e9e1-40ae-8889-f7b972adfb38" />
+
 
 Berikut adalah tampilan dari menu 4 user, yaitu melihat riwayat transaksi yang sudah dilakukan(top-up atau membayar layanan).
 
@@ -259,15 +260,17 @@ Menu Menghapus Pengguna digunakan oleh admin untuk menghapus akun pengguna yang 
 
 ### 3.3. menu lihat seluruh transaksi
 
-<img width="778" height="303" alt="Screenshot 2026-11-03 183821" src="https://github.com/user-attachments/assets/4cb2fbc3-dbcd-4f58-b767-4c04f5d514a1" />
+<img width="1176" height="456" alt="Screenshot 2026-11-03 214919" src="https://github.com/user-attachments/assets/0fc4c090-0b2e-4c5f-9683-f0df037e5577" />
+
 
 Menu lihat seluruh transaksi digunakan oleh admin untuk menampilkan seluruh riwayat transaksi yang dilakukan oleh semua pengguna. Program mengambil data dari database transaksi dan menampilkannya dalam bentuk tabel yang berisi ID transaksi, waktu transaksi, username, jenis transaksi, nama layanan, nominal, serta status transaksi. Informasi tersebut mencakup transaksi pengisian saldo (top-up) maupun pembayaran layanan klinik. Melalui menu ini, admin dapat memantau aktivitas transaksi seluruh pengguna serta memeriksa detail dan status setiap transaksi yang telah tercatat di dalam sistem.
 
 ### 3.4. menu laporan transaksi
 
-<img width="770" height="531" alt="Screenshot 2026-11-03 183833" src="https://github.com/user-attachments/assets/20b2a892-d0a7-4347-b9c2-39c5d2bfc351" />
+<img width="1289" height="988" alt="Screenshot 2026-11-03 214709" src="https://github.com/user-attachments/assets/bbd44614-10b8-4aee-b6e9-b1b39983c82a" />
 
-Menu laporan transaksi digunakan oleh admin untuk melihat ringkasan keseluruhan aktivitas transaksi yang tercatat di dalam sistem. Program mengambil dan mengolah data dari database transaksi untuk menampilkan beberapa informasi, yaitu total transaksi, jumlah transaksi berhasil, total pengisian saldo (top-up), serta total pembayaran layanan. Seluruh informasi tersebut ditampilkan dalam bentuk tabel ringkasan sehingga admin dapat memantau aktivitas transaksi dan mengetahui gambaran umum keuangan yang terjadi di dalam sistem.
+
+Menu laporan transaksi digunakan oleh admin untuk melihat ringkasan keseluruhan aktivitas transaksi yang tercatat di dalam sistem. Program mengambil dan mengolah data dari database transaksi untuk menampilkan beberapa informasi, yaitu total transaksi, jumlah transaksi berhasil, total pengisian saldo (top-up), layanan terlaris, serta total pembayaran layanan. Seluruh informasi tersebut ditampilkan dalam bentuk tabel ringkasan sehingga admin dapat memantau aktivitas transaksi dan mengetahui gambaran umum keuangan yang terjadi di dalam sistem.
 
 ### 3.5. Menu logout
 
