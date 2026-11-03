@@ -168,7 +168,7 @@ Pada menu ini, silahkan login dengan memasukkan username dan password, pengguna 
 
 <img width="358" height="235" alt="Screenshot 2026-10-29 142537" src="https://github.com/user-attachments/assets/3d2b06a6-1e17-4797-a32f-8f85be97b767" />
 
-Ini adalah tampilan dan pilihan menu jika role pengguna adalah user dan bukan admin.
+Menu user merupakan tampilan utama yang diberikan kepada pengguna dengan hak akses sebagai user. Pada bagian ini, program menampilkan informasi akun berupa nama pengguna, username, dan jumlah saldo yang dimiliki. Selain itu, terdapat beberapa pilihan fitur, yaitu melihat layanan, melakukan top-up saldo, membayar layanan, melihat riwayat transaksi, logout, dan keluar program. Pengguna dapat memilih fitur sesuai kebutuhan, kemudian program akan menjalankan proses berdasarkan pilihan tersebut.
 
 ### 2.1. Menu daftar layanan klinik 
 
