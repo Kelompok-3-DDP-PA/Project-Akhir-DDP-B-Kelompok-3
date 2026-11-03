@@ -1,8 +1,8 @@
-# Project-Akhir-DDP-B-Kelompok-3
+# Projek Akhir Kelompok 3 Dasar Dasar Pemrograman
 
 # Sistem Pembayaran dan Administrasi Klinik
 
-# 1.Anggota Kelompok dan peran
+# 1. Anggota Kelompok dan peran
 1.Muhammad Atha Andhika | Project Leader, memastikan semua anggota berkontribusi dan berkerja sama satu dengan lainnya, merancang alur dan struktur program, membuat programnya serta melakukan pengawasan dan testing.
 
 2.Nabilah Rahmadhani | Anggota, 
@@ -11,13 +11,15 @@
 
 4.Mario Bawa Welan | Anggota,
 
-# 2 Deskripsi dan Tujuan
+# 2. Deskripsi dan Tujuan
 
-Sistem Pembayaran dan Administrasi Klinik merupakan program berbasis Python yang digunakan untuk membantu pengelolaan layanan klinik dan transaksi pembayaran. Program ini menyediakan fitur registrasi dan login pengguna, pengelolaan data layanan, top-up saldo, serta pembayaran layanan klinik.
+Sistem Pembayaran dan Administrasi Klinik merupakan program berbasis Python yang dirancang untuk membantu proses pengelolaan administrasi dan transaksi pembayaran layanan klinik. Program ini menyediakan beberapa fitur, seperti registrasi dan login pengguna, pengelolaan data layanan klinik, top-up saldo, pembayaran layanan, serta pencatatan riwayat transaksi. Program juga menerapkan dua hak akses pengguna, yaitu admin dan user, dengan kewenangan yang berbeda. Admin memiliki akses untuk mengelola data layanan dan pengguna serta melihat laporan transaksi, sedangkan user dapat melakukan top-up saldo, pembayaran layanan, dan melihat riwayat transaksinya.
 
-Tujuan pembuatan program ini adalah untuk menerapkan materi dasar pemrograman Python, seperti fungsi, percabangan, perulangan, pengolahan file CSV, validasi input, dan penanganan kesalahan. Data pengguna, layanan, dan transaksi disimpan menggunakan file CSV.
+Pembuatan program ini bertujuan untuk menerapkan konsep dasar pemrograman Python yang telah dipelajari, meliputi penggunaan variabel, tipe data, percabangan, perulangan, fungsi, pengolahan file CSV, validasi input, serta penggunaan library tambahan. Selain itu, program ini dibuat untuk memberikan gambaran sederhana mengenai penerapan sistem informasi dalam proses administrasi dan pembayaran layanan klinik, khususnya dalam pengelolaan data pengguna, layanan, saldo, dan transaksi secara terstruktur.
 
-# 3 Flowchart Program
+Program ini juga disusun sebagai salah satu syarat untuk menyelesaikan Final Project Praktikum Dasar-Dasar Pemrograman, Program Studi Sistem Informasi, Fakultas Teknik, Universitas Mulawarman. Melalui pengerjaan proyek ini, diharapkan kemampuan dalam memahami logika pemrograman, mengintegrasikan berbagai materi yang telah dipelajari, serta mengembangkan program yang fungsional dan terstruktur dapat semakin meningkat.
+
+# 3. Flowchart Program
 
 ## 1. menu utama
 <img width="1146" height="1607" alt="FLOWCHART PA DDP 3 -menu utama jpg" src="https://github.com/user-attachments/assets/55cc7c83-911f-4203-9c44-4cf0e6abbee7" />
