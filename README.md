@@ -169,19 +169,19 @@ Pada menu ini, silahkan login dengan memasukkan username dan password, pengguna 
 
 Ini adalah tampilan dan pilihan menu jika role pengguna adalah user dan bukan admin.
 
-### 2.1. Menu 1 User 
+### 2.1. Menu daftar layanan klinik 
 
 <img width="393" height="272" alt="Screenshot 2026-10-29 142553" src="https://github.com/user-attachments/assets/7f71102b-0573-45a5-b640-6f01dce21d94" />
 
 Berikut adalah tampilan dari menu 1 user, yaitu melihat layanan yang tersedia. 
 
-### 2.2. Menu 2 User 
+### 2.2. Menu top up
 
 <img width="353" height="447" alt="Screenshot 2026-10-29 142629" src="https://github.com/user-attachments/assets/400cd993-57b5-49a0-aec5-838c805c0c6d" />
 
 Berikut adalah tampilan dari menu 2 user, yaitu top-up saldo. Pengguna akan diminta untuk memasukkan nominal top-up dengan minimal top-up adalah Rp 1000 dan mengkonfirmasi pembayarannya. Setelah berhasil maka akan muncul sebuah Invoice yang berisi informasi transaksi dan rincian saldo.
 
-### 2.3. Menu 3 User 
+### 2.3. Menu bayar layanan 
 
 <img width="406" height="446" alt="Screenshot 2026-10-29 142746" src="https://github.com/user-attachments/assets/040e449f-faba-40c2-af27-5a9354773738" />
 
@@ -190,13 +190,13 @@ Berikut adalah tampilan dari menu 2 user, yaitu top-up saldo. Pengguna akan dimi
 
 Berikut adalah tampilan dari menu 3 user, yaitu pembayaran layanan. Pertama akan muncul layanan apa saja yang tersedia lalu pengguna akan diminta untuk memasukkan id layanan yang ingin dibayar dan akan muncul rincian dari transaksi dan pengguna diminta untuk konfirmasi pembayaran. Jika pengguna memilih tidak maka pembayaran dibatlakan. Jika pengguna memilih ya, maka pembayaran berhasil dan akan menampilkan invoice dengan informasi transaksi, rincian layanan, dan rincian saldo. Saldo dari pengguna akan otomatis terpotong jika mengkonfirmasi pembayaran. 
 
-### 2.4. Menu 4 User
+### 2.4. Menu lihat riwayat transaksi
 
 <img width="846" height="178" alt="Screenshot 2026-10-29 142823" src="https://github.com/user-attachments/assets/e807437e-fa90-4384-8b6e-945dd83463b7" />
 
 Berikut adalah tampilan dari menu 4 user, yaitu melihat riwayat transaksi yang sudah dilakukan(top-up atau membayar layanan).
 
-### 2.5. Menu 5 User
+### 2.5. Menu logout
 
 <img width="340" height="285" alt="Screenshot 2026-10-29 142839" src="https://github.com/user-attachments/assets/424882ba-bc67-4e96-9163-f868122c8c93" />
 
@@ -208,7 +208,7 @@ Menu 5 adalah menu untuk logout dari akun yang digunakan, setelah logout berhasi
 
 Ini adalah tampilan dan pilihan menu jika role pengguna adalah admin. 
 
-### 3.1. Menu 1 admin
+### 3.1. Menu kelola layanan
 
 <img width="455" height="177" alt="Screenshot 2026-11-02 232638" src="https://github.com/user-attachments/assets/961786e7-8c30-4c74-bdef-2233640fd780" />
 
@@ -226,7 +226,7 @@ Menu ini untuk admin melihat data layanan yang sedang tersedia.
 
 #### 3.1.4 Menu Menghapus Layanan
 
-### 3.2. menu 2 admin
+### 3.2. menu kelola pengguna
 
 <img width="415" height="202" alt="Screenshot 2026-11-02 233130" src="https://github.com/user-attachments/assets/146b35dc-955b-46b7-936d-318959e1a6a9" />
 
@@ -236,19 +236,19 @@ Menu kelola pengguna digunakan untuk melihat daftar akun pengguna yg terdaftar, 
 
 #### 3.2.2 Menu Menghapus Pengguna
 
-### 3.3. menu 3 admin
+### 3.3. menu lihat seluruh transaksi
 
 <img width="882" height="212" alt="image" src="https://github.com/user-attachments/assets/4cb8e43a-2650-436b-b37e-a7c0ceb9188c" />
 
 Digunakan untuk menampilkan seluruh riwayat transaksi yang dilakukan oleh semua pengguna, baik transaksi top-up maupun pembayaran layanan klinik.
 
-### 3.4. menu 4 admin
+### 3.4. menu laporan transaksi
 
 <img width="319" height="212" alt="Screenshot 2026-11-02 235228" src="https://github.com/user-attachments/assets/2066cc0d-0ab4-4b77-8d84-8292ce2d2048" />
 
 Digunakan untuk menampilkan ringkasan laporan transaksi, seperti jumlah transaksi, transaksi berhasil, total top-up saldo, dan total pembayaran layanan.
 
-### 3.5. Menu 5 admin
+### 3.5. Menu logout
 
 <img width="288" height="203" alt="Screenshot 2026-11-02 235520" src="https://github.com/user-attachments/assets/4db92e49-8f74-431f-9b7d-8de411205964" />
 
