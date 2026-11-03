@@ -124,7 +124,7 @@ d. Menu Bayar Layanan
 
 Ketika pengguna memilih menu bayar layanan, program meminta pengguna memasukkan ID layanan. Jika input kosong, program menampilkan pesan kesalahan dan meminta ID layanan dimasukkan kembali.
 
-Selanjutnya, program memeriksa apakah layanan dengan ID tersebut tersedia. Jika layanan ditemukan, program menampilkan informasi pembayaran dan meminta konfirmasi. Jika layanan tidak ditemukan, program menampilkan pesan bahwa layanan tidak tersedia.
+Selanjutnya, program memeriksa apakah layanan dengan ID tersebut tersedia. Jika layanan ditemukan, program akan memeriksa apakah saldo mencukupi untuk membayar layanan, Jika cukup maka program akan menampilkan informasi pembayaran dan meminta konfirmasi. Jika layanan tidak ditemukan dan saldo tidak mencukupi, program menampilkan pesan bahwa layanan tidak tersedia dan saldo tidak mencukupi.
 
 Jika pengguna menyetujui pembayaran, data transaksi disimpan ke database transaksi dan program menampilkan invoice. Jika pengguna membatalkan pembayaran, program menampilkan informasi bahwa pembayaran dibatalkan.
 
