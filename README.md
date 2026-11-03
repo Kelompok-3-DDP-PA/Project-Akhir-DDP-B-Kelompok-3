@@ -1,6 +1,6 @@
 # Projek Akhir Kelompok 3 Dasar Dasar Pemrograman
 
-# Sistem Pembayaran dan Administrasi Klinik
+# Sistem Pembayaran dan Administrasi Klinik (Administrasi Transaksi Klinik)
 
 # 1. Anggota Kelompok dan peran
 1.Muhammad Atha Andhika | Project Leader, memastikan semua anggota berkontribusi dan berkerja sama satu dengan lainnya, merancang alur dan struktur program, membuat programnya serta melakukan pengawasan dan testing.
@@ -13,7 +13,7 @@
 
 # 2. Deskripsi dan Tujuan
 
-Sistem Pembayaran dan Administrasi Klinik merupakan program berbasis Python yang dirancang untuk membantu proses pengelolaan administrasi dan transaksi pembayaran layanan klinik. Program ini menyediakan beberapa fitur, seperti registrasi dan login pengguna, pengelolaan data layanan klinik, top-up saldo, pembayaran layanan, serta pencatatan riwayat transaksi. Program juga menerapkan dua hak akses pengguna, yaitu admin dan user, dengan kewenangan yang berbeda. Admin memiliki akses untuk mengelola data layanan dan pengguna serta melihat laporan transaksi, sedangkan user dapat melakukan top-up saldo, pembayaran layanan, dan melihat riwayat transaksinya.
+Sistem Pembayaran dan Administrasi Klinik atau Administrasi Transaksi Klinik merupakan program berbasis Python yang dirancang untuk membantu proses pengelolaan administrasi dan transaksi pembayaran layanan klinik. Program ini menyediakan beberapa fitur, seperti registrasi dan login pengguna, pengelolaan data layanan klinik, top-up saldo, pembayaran layanan, serta pencatatan riwayat transaksi. Program juga menerapkan dua hak akses pengguna, yaitu admin dan user, dengan kewenangan yang berbeda. Admin memiliki akses untuk mengelola data layanan dan pengguna serta melihat laporan transaksi, sedangkan user dapat melakukan top-up saldo, pembayaran layanan, dan melihat riwayat transaksinya.
 
 Pembuatan program ini bertujuan untuk menerapkan konsep dasar pemrograman Python yang telah dipelajari, meliputi penggunaan variabel, tipe data, percabangan, perulangan, fungsi, pengolahan file CSV, validasi input, serta penggunaan library tambahan. Selain itu, program ini dibuat untuk memberikan gambaran sederhana mengenai penerapan sistem informasi dalam proses administrasi dan pembayaran layanan klinik, khususnya dalam pengelolaan data pengguna, layanan, saldo, dan transaksi secara terstruktur.
 
