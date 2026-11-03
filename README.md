@@ -258,13 +258,13 @@ Menu Menghapus Pengguna digunakan oleh admin untuk menghapus akun pengguna yang 
 
 ### 3.3. menu lihat seluruh transaksi
 
-<img width="882" height="212" alt="image" src="https://github.com/user-attachments/assets/4cb8e43a-2650-436b-b37e-a7c0ceb9188c" />
+<img width="778" height="303" alt="Screenshot 2026-11-03 183821" src="https://github.com/user-attachments/assets/4cb2fbc3-dbcd-4f58-b767-4c04f5d514a1" />
 
 Digunakan untuk menampilkan seluruh riwayat transaksi yang dilakukan oleh semua pengguna, baik transaksi top-up maupun pembayaran layanan klinik.
 
 ### 3.4. menu laporan transaksi
 
-<img width="319" height="212" alt="Screenshot 2026-11-02 235228" src="https://github.com/user-attachments/assets/2066cc0d-0ab4-4b77-8d84-8292ce2d2048" />
+<img width="770" height="531" alt="Screenshot 2026-11-03 183833" src="https://github.com/user-attachments/assets/20b2a892-d0a7-4347-b9c2-39c5d2bfc351" />
 
 Menu laporan transaksi digunakan oleh admin untuk melihat ringkasan keseluruhan aktivitas transaksi yang tercatat di dalam sistem. Program mengambil dan mengolah data dari database transaksi untuk menampilkan beberapa informasi, yaitu total transaksi, jumlah transaksi berhasil, total pengisian saldo (top-up), serta total pembayaran layanan. Seluruh informasi tersebut ditampilkan dalam bentuk tabel ringkasan sehingga admin dapat memantau aktivitas transaksi dan mengetahui gambaran umum keuangan yang terjadi di dalam sistem.
 
