@@ -218,7 +218,7 @@ Menu kelola layanan digunakan admin untuk mengatur data layanan klinik. Terdapat
 
 <img width="394" height="242" alt="Screenshot 2026-11-03 145843" src="https://github.com/user-attachments/assets/5870165b-2e09-406e-8a08-35c859fbe93e" />
 
-Menu ini untuk admin melihat data layanan yang sedang tersedia.
+Menu melihat layanan digunakan oleh admin untuk menampilkan seluruh data layanan klinik yang tersedia di dalam sistem. Program mengambil data dari database layanan, kemudian memproses dan menampilkannya dalam bentuk tabel yang memuat ID layanan, nama layanan, serta harga masing-masing layanan. Melalui menu ini, admin dapat mengetahui daftar layanan yang sedang tersedia beserta biaya yang dikenakan. Informasi tersebut juga dapat digunakan sebagai acuan dalam melakukan pengelolaan layanan, seperti penambahan, perubahan, maupun penghapusan data layanan.
 
 #### 3.1.2 Menu Menambah Layanan
 
@@ -260,7 +260,7 @@ Menu Menghapus Pengguna digunakan oleh admin untuk menghapus akun pengguna yang 
 
 <img width="778" height="303" alt="Screenshot 2026-11-03 183821" src="https://github.com/user-attachments/assets/4cb2fbc3-dbcd-4f58-b767-4c04f5d514a1" />
 
-Digunakan untuk menampilkan seluruh riwayat transaksi yang dilakukan oleh semua pengguna, baik transaksi top-up maupun pembayaran layanan klinik.
+Menu lihat seluruh transaksi digunakan oleh admin untuk menampilkan seluruh riwayat transaksi yang dilakukan oleh semua pengguna. Program mengambil data dari database transaksi dan menampilkannya dalam bentuk tabel yang berisi ID transaksi, waktu transaksi, username, jenis transaksi, nama layanan, nominal, serta status transaksi. Informasi tersebut mencakup transaksi pengisian saldo (top-up) maupun pembayaran layanan klinik. Melalui menu ini, admin dapat memantau aktivitas transaksi seluruh pengguna serta memeriksa detail dan status setiap transaksi yang telah tercatat di dalam sistem.
 
 ### 3.4. menu laporan transaksi
 
