@@ -213,17 +213,29 @@ Ini adalah tampilan dan pilihan menu jika role pengguna adalah admin.
 
 <img width="455" height="177" alt="Screenshot 2026-11-02 232638" src="https://github.com/user-attachments/assets/961786e7-8c30-4c74-bdef-2233640fd780" />
 
-menu kelola layanan digunakan admin untuk mengatur data layanan klinik. Terdapat fitur melihat, menambah, mengubah, dan menghapus layanan.
+Menu kelola layanan digunakan admin untuk mengatur data layanan klinik. Terdapat fitur melihat, menambah, mengubah, dan menghapus layanan.
 
 ##### 4.1.1 Menu Melihat Layanan
 
+<img width="394" height="242" alt="Screenshot 2026-11-03 145843" src="https://github.com/user-attachments/assets/5870165b-2e09-406e-8a08-35c859fbe93e" />
 
+Menu ini untuk admin melihat data layanan yang sedang tersedia.
+
+##### 4.1.2 Menu Menambah Layanan
+
+##### 4.1.3 Menu Mengubah Layanan
+
+##### 4.1.4 Menu Menghapus Layanan
 
 #### 4.2. menu 2 admin
 
 <img width="415" height="202" alt="Screenshot 2026-11-02 233130" src="https://github.com/user-attachments/assets/146b35dc-955b-46b7-936d-318959e1a6a9" />
 
-Menu kelola pengguna digunakan untuk melihat daftar akun pengguna yg terdaftar,mengubah role pengguna menjadi admin atau user,,serta menghapus akun pengguna.
+Menu kelola pengguna digunakan untuk melihat daftar akun pengguna yg terdaftar, mengubah role pengguna menjadi admin atau user, serta menghapus akun pengguna.
+
+##### 4.2.1 Menu Mengubah Role Pengguna
+
+##### 4.2.2 Menu Menghapus Pengguna
 
 #### 4.3. menu 3 admin
 
